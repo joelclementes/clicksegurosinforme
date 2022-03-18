@@ -1,0 +1,139 @@
+:root {
+  --background: linear-gradient(135deg, #d63c167a 0%, #2f40557a 100%);
+  --backgroundvehiculos: linear-gradient(45deg, #00000096 10%, #86bbff96 100%);
+  --backgroundgastosmedicos: linear-gradient(45deg, #00000096 0%, #86bbff96 100%);
+  --backgroundvida: linear-gradient(45deg, #00000096 10%, #86bbff96 100%);
+  }
+
+*{
+    font-size:.95rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    padding:0;
+    margin: 0;
+}
+
+body {
+    max-width:1366px;
+    max-height: 768px;
+    margin: 0px auto;
+    font-size:15px;
+}
+
+.container{
+  padding: 20px !important; 
+}
+
+.cuerpo{
+    background-image: var(--background),url('../images/imagendefondoheader.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-attachment: fixed; */
+    position: relative;
+    height:350px;
+}
+
+.titulo{
+    font-size:3rem;
+    letter-spacing: 0.073em;
+    font-weight:800;
+    text-align: center;
+    color:#ffffff;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+
+.cardArchivoPdf{
+  padding:10px;
+  border-radius:5px;
+  /* color:#000000; */
+  background: #effff0;
+  /* background: linear-gradient(to left, #283048, #859398) */
+}
+
+.instruccionesPdf{
+  /* color:#000000; */
+  font-size: .8rem;
+}
+
+.formulario__general{
+  border-radius:10px;
+  background: #f1f5fa;
+}
+
+.form{
+  border-radius:10px
+}
+
+.form__vehiculos{
+  /* background: #f1f1f1; */
+  color:white;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  background-image: var(--backgroundvehiculos),url('../images/segurovehiculo.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form__gastosmedicos{
+  /* background: #bacdf1; */
+  color:white;
+  /* text-shadow: 2px 2px 3px rgb(0, 0, 0); */
+  background-image: var(--backgroundgastosmedicos),url('../images/segurogastosmedicos.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.form__vidaahorro{
+  /* background: #baf1c3; */
+  color:white;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  background-image: var(--backgroundvida),url('../images/segurodevida.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form__otro{
+  color:white;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  background-image: var(--backgroundvida),url('../images/otros.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form__archivoadjunto{
+  background: #f1f1f1;
+}
+
+.card-asegurado{
+  color:#000000;
+  background-color: #feffeb;
+  border-radius: 10px;
+  /* box-shadow: 2px 3px 5px -3px rgba(255, 255, 255, 0.75); */
+}
+
+input:invalid {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d3a2a3 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d3a2a3 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#d3a2a3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3a2a3',GradientType=0 );
+  }
+  
+  input:invalid:required {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fcffdd 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fcffdd 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#faffc0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcffdd',GradientType=0 );
+  }
+  
