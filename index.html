@@ -11,15 +11,17 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="./js/jquery.js"></script>
-
-    <!-- Mi script -->
-    <script src="./js/App.js" type="module"></script>
+    <!-- MD5 -->
+    <script src="js/md5.js" type="text/javascript" ></script>
 
     <!-- Mis estilos -->
     <link rel="stylesheet" href="./css/clickseguros.css">
+    <link rel="stylesheet" href="./css/filtroTipoSeguro.css">
 
+    <!-- jQuery -->
+    <script src="./js/jquery.js"></script>
+    <!-- Mi script -->
+    <script src="./js/App.js" type="module"></script>
 </head>
 
 <body class="container">
@@ -34,13 +36,46 @@
                 </div>
             </div>
         </div>
-        <br>
     </header>
 
-    <div class="login">
-        
+
+
+    <div class="form__login" id="formLogin">
+        <div class="form__login__item">
+            <img src="./images/login.svg" alt="">
+        </div>
+        <div class="form__login_item">
+            <input class="form__login__control" type="text" id="usu" placeholder="Usuario" required>
+        </div>
+        <div class="form__login_item">
+            <input class="form__login__control" type="password" id="cla" placeholder="Clave" required>
+        </div>
+        <div class="form__login_item">
+            <input id="btnOk" class="btn btn-primary" type="submit" value="Ok">
+        </div>
+        <div class="form__login_item">
+            <label for="" id="mensajeLogin"></label>
+        </div>
     </div>
 
+    <div class="nav" style="display:none">
+        <!-- <div class="nav__items">
+            <label for="">Filtrar por:</label>
+            <div class="nav__items__filtros" id="btnFiltros">
+                <input type="radio" class="btn-check" name="filtro" id="todos" checked>
+                <label class="btn btn-outline-light" for="todos">Todos</label>
+                <input type="radio" class="btn-check" name="filtro" id="ts-GastosMedicos" checked>
+                <label class="btn btn-outline-light" for="ts-GastosMedicos">Gastos Médicos</label>
+                <input type="radio" class="btn-check" name="filtro" id="ts-Otros" checked>
+                <label class="btn btn-outline-light" for="ts-Otros">Otros</label>
+                <input type="radio" class="btn-check" name="filtro" id="ts-Vehículos" checked>
+                <label class="btn btn-outline-light" for="ts-Vehículos">Vehículos</label>
+                <input type="radio" class="btn-check" name="filtro" id="ts-VidaAhorro" checked>
+                <label class="btn btn-outline-light" for="ts-VidaAhorro">Vida Ahorro</label>
+            </div>
+        </div> -->
+        <input type="button" class="btn btn-secondary" id="cerrarSesion" value="Cerrar sesión">
+    </div>
     <section class="container " id="informe">
         <div class="row d-flex flex-column" id="cardsSolicitudes">
 
@@ -52,7 +87,9 @@
 
     </footer>
 
-    <!-- <script src="./js/App.js" type="module"></script> -->
+
+
+
 </body>
 
 </html>

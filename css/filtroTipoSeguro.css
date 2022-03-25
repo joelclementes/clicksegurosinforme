@@ -1,0 +1,40 @@
+#ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-Otro {display:none;}
+#ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-Vehículo {display:none;}
+#ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-VidaAhorro {display:none;}
+
+#ts-Otro:checked ~ #cardsSolicitudes .ts-GastosMedicos {display:none;} 
+#ts-Otro:checked ~ #cardsSolicitudes .ts-Vehículo {display:none;}
+#ts-Otro:checked ~ #cardsSolicitudes .ts-VidaAhorro{display:none;}
+
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-GastosMedicos {display:none;}
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-Otro {display:none;}
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-VidaAhorro {display:none;}
+
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-GastosMedicos {display:none;} 
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-Otro {display:none;} 
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-Vehículo {display:none;}
+
+
+/* #ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-Otro, 
+#ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-Vehículo,
+#ts-GastosMedicos:checked ~ #cardsSolicitudes .ts-VidaAhorro{ 
+    display:none;
+}
+
+#ts-Otro:checked ~ #cardsSolicitudes .ts-GastosMedicos, 
+#ts-Otro:checked ~ #cardsSolicitudes .ts-Vehículo,
+#ts-Otro:checked ~ #cardsSolicitudes .ts-VidaAhorro{ 
+    display:none;
+}
+
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-GastosMedicos, 
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-Otro,
+#ts-Vehículo:checked ~ #cardsSolicitudes .ts-VidaAhorro{ 
+    display:none;
+}
+
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-GastosMedicos, 
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-Otro,
+#ts-VidaAhorro:checked ~ #cardsSolicitudes .ts-Vehículo{ 
+    display:none;
+} */
