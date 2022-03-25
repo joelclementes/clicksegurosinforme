@@ -117,8 +117,10 @@ body {
 .card-asegurado{
   color:#000000;
   background-color: #feffeb;
+  background-color: #dadada;
   border-radius: 10px;
-  /* box-shadow: 2px 3px 5px -3px rgba(255, 255, 255, 0.75); */
+  margin-bottom:25px;
+  box-shadow: 2px 3px 5px -3px rgb(138, 138, 138);
 }
 
 input:invalid {
@@ -137,3 +139,15 @@ input:invalid {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcffdd',GradientType=0 );
   }
   
+.dato{
+  color:#ffffff;
+  background:#e6380c;
+  padding: 1px 8px 1px 8px;
+  border-radius:7px;
+}
+
+.detalle{
+  color:#e6380c;
+  padding: 1px 4px 1px 4px;
+  border-radius:7px;
+}
